@@ -10,7 +10,7 @@ if os.path.exists("userdetails.json"):
 else:
     create=open("userdetails.json","w+")
     create.close()
-choose = int(input(("\n \n1. For Sign_up\n2. For Log_in \n........")))
+choose = int(input(("\n \n1. For Log_in\n2. For Sign_up \n........")))
 if choose == 1:
     name=input("enter the name : ")
     print(name)
